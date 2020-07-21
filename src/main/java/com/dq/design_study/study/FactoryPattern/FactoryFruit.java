@@ -1,7 +1,7 @@
 package com.dq.design_study.study.FactoryPattern;
 
 /**
- * 工厂模式
+ * 简单工厂模式
  *
  */
 public class FactoryFruit {
