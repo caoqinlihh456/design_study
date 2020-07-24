@@ -10,6 +10,7 @@ public class Banan extends Fruit {
 
     private String age;
 
+    @Override
     public void eat(){
         System.out.println("吃香蕉");
     }
