@@ -49,8 +49,11 @@ public class Demo3 {
             for (int i1 = 0; i1 < chars2.length; i1++) {
                 char c2 = chars2[i1];
                 if(c == c2){
-                    a = i;
-                    break;
+                    char cc = chars1[i + chars2.length - 1];
+                    if(cc == chars2[chars2.length-1]){
+                        a = i;
+                        break;
+                    }
                 }
             }
         }
